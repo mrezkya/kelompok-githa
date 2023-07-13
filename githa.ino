@@ -33,5 +33,6 @@ void loop()
  lcd.print("jarak : ");
   lcd.print(ds);
   lcd.print("cm");
+ lcd.clear()
  delay(2000);
 }
